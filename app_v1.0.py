@@ -1,9 +1,8 @@
 import streamlit as st
-import os # Still import os because LangChain's Replicate might explicitly look for it in os.environ
-from langchain_community.llms import replicate
-from langchain.chains import LLMChain
-from langchain_core.prompts import PromptTemplate # Ensure this is imported for PromptTemplate
-
+import os
+import replicate # <--- Change this line
+from langchain.chains import LLMChain # You're not using LLMChain in this version, but can keep if planned for future
+from langchain_core.prompts import PromptTemplate # You're not using this in this version, but can keep if planned for future
 
 # App title
 st.set_page_config(page_title="🦙💬 Llama 2 Chatbot")
