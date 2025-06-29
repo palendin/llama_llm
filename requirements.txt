@@ -1,23 +1,22 @@
-google-generativeai
+streamlit
+replicate
+
 langchain
-chromadb
-pypdf2
-python-docx
-unstructured
-sentence-transformers
-pinecone-client
-weaviate-client
-pymilvus
-streamlit
-flask
 langchain-community
-pypdf
-langchain-google-vertexai
-google-auth
-angchain_google_genai
-tabulate
-streamlit
-unstructured[pdf]
-pdfminer.six
-unstructured-inference
-docx2txt
+langchain-core
+
+# chromadb
+# pypdf2
+# python-docx
+# unstructured
+# sentence-transformers
+# pinecone-client
+# weaviate-client
+# pymilvus
+# flask
+# pypdf
+# tabulate
+# unstructured[pdf]
+# pdfminer.six
+# unstructured-inference
+# docx2txt
