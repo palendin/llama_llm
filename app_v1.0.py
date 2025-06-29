@@ -29,7 +29,7 @@ with st.sidebar:
     temperature = st.sidebar.slider('temperature', min_value=0.01, max_value=5.0, value=0.1, step=0.01)
     top_p = st.sidebar.slider('top_p', min_value=0.01, max_value=1.0, value=0.9, step=0.01)
     max_length = st.sidebar.slider('max_length', min_value=32, max_value=128, value=120, step=8)
-    st.markdown('📖 For more information about myself, click [here](waynewu.me)!')
+    st.markdown('📖 For more information about myself, click [here](https://waynewu.me)!')
 
 # Store LLM generated responses
 if "messages" not in st.session_state.keys():
